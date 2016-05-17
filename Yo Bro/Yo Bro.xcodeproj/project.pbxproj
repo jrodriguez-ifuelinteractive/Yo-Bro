@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		953CC5941CE563BF00D3702F /* OMPBrosTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 953CC5931CE563BF00D3702F /* OMPBrosTableViewCell.m */; };
+		95A8E9CF1CDE6A8D00F25545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8E9CE1CDE6A8D00F25545 /* main.m */; };
+		95A8E9D21CDE6A8D00F25545 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8E9D11CDE6A8D00F25545 /* AppDelegate.m */; };
+		95A8E9D51CDE6A8D00F25545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8E9D41CDE6A8D00F25545 /* ViewController.m */; };
+		95A8E9D81CDE6A8D00F25545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A8E9D61CDE6A8D00F25545 /* Main.storyboard */; };
+		95A8E9DA1CDE6A8D00F25545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A8E9D91CDE6A8D00F25545 /* Assets.xcassets */; };
+		95A8E9DD1CDE6A8D00F25545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A8E9DB1CDE6A8D00F25545 /* LaunchScreen.storyboard */; };
+		95A8E9E81CDE6A8D00F25545 /* Yo_BroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8E9E71CDE6A8D00F25545 /* Yo_BroTests.m */; };
+		95A8E9F31CDE6A8D00F25545 /* Yo_BroUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8E9F21CDE6A8D00F25545 /* Yo_BroUITests.m */; };
+		95A8EA031CDE6ED300F25545 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8EA021CDE6ED300F25545 /* RegisterViewController.m */; };
+		95A8EA0C1CDEEBC900F25545 /* BrosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8EA0B1CDEEBC900F25545 /* BrosTableViewController.m */; };
+		95A8EA121CE3EED600F25545 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A8EA0E1CE3EED600F25545 /* Fabric.framework */; };
+		95A8EA131CE3EED600F25545 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A8EA0F1CE3EED600F25545 /* TwitterKit.framework */; };
+		95A8EA141CE3EED600F25545 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95A8EA101CE3EED600F25545 /* TwitterKitResources.bundle */; };
+		95A8EA151CE3EED600F25545 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A8EA111CE3EED600F25545 /* TwitterCore.framework */; };
+		95A8EA191CE418CC00F25545 /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8EA181CE418CC00F25545 /* Users.m */; };
+		95C1E44B1CE8B2A4009D44EE /* OMPOptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C1E44A1CE8B2A4009D44EE /* OMPOptionsTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95A8E9E41CDE6A8D00F25545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95A8E9C21CDE6A8D00F25545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95A8E9C91CDE6A8D00F25545;
+			remoteInfo = "Yo Bro";
+		};
+		95A8E9EF1CDE6A8D00F25545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95A8E9C21CDE6A8D00F25545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95A8E9C91CDE6A8D00F25545;
+			remoteInfo = "Yo Bro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		953CC5921CE563BF00D3702F /* OMPBrosTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMPBrosTableViewCell.h; sourceTree = "<group>"; };
+		953CC5931CE563BF00D3702F /* OMPBrosTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMPBrosTableViewCell.m; sourceTree = "<group>"; };
+		95A8E9CA1CDE6A8D00F25545 /* Yo Bro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yo Bro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A8E9CE1CDE6A8D00F25545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95A8E9D01CDE6A8D00F25545 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95A8E9D11CDE6A8D00F25545 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95A8E9D31CDE6A8D00F25545 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95A8E9D41CDE6A8D00F25545 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95A8E9D71CDE6A8D00F25545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95A8E9D91CDE6A8D00F25545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95A8E9DC1CDE6A8D00F25545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95A8E9DE1CDE6A8D00F25545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A8E9E31CDE6A8D00F25545 /* Yo BroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yo BroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A8E9E71CDE6A8D00F25545 /* Yo_BroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yo_BroTests.m; sourceTree = "<group>"; };
+		95A8E9E91CDE6A8D00F25545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A8E9EE1CDE6A8D00F25545 /* Yo BroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yo BroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A8E9F21CDE6A8D00F25545 /* Yo_BroUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yo_BroUITests.m; sourceTree = "<group>"; };
+		95A8E9F41CDE6A8D00F25545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A8EA011CDE6ED300F25545 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		95A8EA021CDE6ED300F25545 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		95A8EA0A1CDEEBC900F25545 /* BrosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrosTableViewController.h; sourceTree = "<group>"; };
+		95A8EA0B1CDEEBC900F25545 /* BrosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrosTableViewController.m; sourceTree = "<group>"; };
+		95A8EA0E1CE3EED600F25545 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		95A8EA0F1CE3EED600F25545 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		95A8EA101CE3EED600F25545 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		95A8EA111CE3EED600F25545 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		95A8EA171CE418CC00F25545 /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		95A8EA181CE418CC00F25545 /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
+		95C1E4491CE8B2A4009D44EE /* OMPOptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMPOptionsTableViewController.h; sourceTree = "<group>"; };
+		95C1E44A1CE8B2A4009D44EE /* OMPOptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMPOptionsTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95A8E9C71CDE6A8D00F25545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A8EA121CE3EED600F25545 /* Fabric.framework in Frameworks */,
+				95A8EA151CE3EED600F25545 /* TwitterCore.framework in Frameworks */,
+				95A8EA131CE3EED600F25545 /* TwitterKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A8E9E01CDE6A8D00F25545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A8E9EB1CDE6A8D00F25545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95A8E9C11CDE6A8D00F25545 = {
+			isa = PBXGroup;
+			children = (
+				95A8EA0E1CE3EED600F25545 /* Fabric.framework */,
+				95A8EA0F1CE3EED600F25545 /* TwitterKit.framework */,
+				95A8EA101CE3EED600F25545 /* TwitterKitResources.bundle */,
+				95A8EA111CE3EED600F25545 /* TwitterCore.framework */,
+				95A8E9CC1CDE6A8D00F25545 /* Yo Bro */,
+				95A8E9E61CDE6A8D00F25545 /* Yo BroTests */,
+				95A8E9F11CDE6A8D00F25545 /* Yo BroUITests */,
+				95A8E9CB1CDE6A8D00F25545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95A8E9CB1CDE6A8D00F25545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95A8E9CA1CDE6A8D00F25545 /* Yo Bro.app */,
+				95A8E9E31CDE6A8D00F25545 /* Yo BroTests.xctest */,
+				95A8E9EE1CDE6A8D00F25545 /* Yo BroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95A8E9CC1CDE6A8D00F25545 /* Yo Bro */ = {
+			isa = PBXGroup;
+			children = (
+				95A8EA161CE418B200F25545 /* Models */,
+				95A8EA001CDE6EB600F25545 /* Controllers */,
+				95A8E9D01CDE6A8D00F25545 /* AppDelegate.h */,
+				95A8E9D11CDE6A8D00F25545 /* AppDelegate.m */,
+				95A8E9D61CDE6A8D00F25545 /* Main.storyboard */,
+				95A8E9D91CDE6A8D00F25545 /* Assets.xcassets */,
+				95A8E9DB1CDE6A8D00F25545 /* LaunchScreen.storyboard */,
+				95A8E9DE1CDE6A8D00F25545 /* Info.plist */,
+				95A8E9CD1CDE6A8D00F25545 /* Supporting Files */,
+			);
+			path = "Yo Bro";
+			sourceTree = "<group>";
+		};
+		95A8E9CD1CDE6A8D00F25545 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95A8E9CE1CDE6A8D00F25545 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95A8E9E61CDE6A8D00F25545 /* Yo BroTests */ = {
+			isa = PBXGroup;
+			children = (
+				95A8E9E71CDE6A8D00F25545 /* Yo_BroTests.m */,
+				95A8E9E91CDE6A8D00F25545 /* Info.plist */,
+			);
+			path = "Yo BroTests";
+			sourceTree = "<group>";
+		};
+		95A8E9F11CDE6A8D00F25545 /* Yo BroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95A8E9F21CDE6A8D00F25545 /* Yo_BroUITests.m */,
+				95A8E9F41CDE6A8D00F25545 /* Info.plist */,
+			);
+			path = "Yo BroUITests";
+			sourceTree = "<group>";
+		};
+		95A8EA001CDE6EB600F25545 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				95A8E9D31CDE6A8D00F25545 /* ViewController.h */,
+				95A8E9D41CDE6A8D00F25545 /* ViewController.m */,
+				95A8EA011CDE6ED300F25545 /* RegisterViewController.h */,
+				95A8EA021CDE6ED300F25545 /* RegisterViewController.m */,
+				95A8EA0A1CDEEBC900F25545 /* BrosTableViewController.h */,
+				95A8EA0B1CDEEBC900F25545 /* BrosTableViewController.m */,
+				95C1E4491CE8B2A4009D44EE /* OMPOptionsTableViewController.h */,
+				95C1E44A1CE8B2A4009D44EE /* OMPOptionsTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		95A8EA161CE418B200F25545 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95A8EA171CE418CC00F25545 /* Users.h */,
+				95A8EA181CE418CC00F25545 /* Users.m */,
+				953CC5921CE563BF00D3702F /* OMPBrosTableViewCell.h */,
+				953CC5931CE563BF00D3702F /* OMPBrosTableViewCell.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95A8E9C91CDE6A8D00F25545 /* Yo Bro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A8E9F71CDE6A8D00F25545 /* Build configuration list for PBXNativeTarget "Yo Bro" */;
+			buildPhases = (
+				95A8E9C61CDE6A8D00F25545 /* Sources */,
+				95A8E9C71CDE6A8D00F25545 /* Frameworks */,
+				95A8E9C81CDE6A8D00F25545 /* Resources */,
+				95A8EA0D1CE3EE9000F25545 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yo Bro";
+			productName = "Yo Bro";
+			productReference = 95A8E9CA1CDE6A8D00F25545 /* Yo Bro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95A8E9E21CDE6A8D00F25545 /* Yo BroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A8E9FA1CDE6A8D00F25545 /* Build configuration list for PBXNativeTarget "Yo BroTests" */;
+			buildPhases = (
+				95A8E9DF1CDE6A8D00F25545 /* Sources */,
+				95A8E9E01CDE6A8D00F25545 /* Frameworks */,
+				95A8E9E11CDE6A8D00F25545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95A8E9E51CDE6A8D00F25545 /* PBXTargetDependency */,
+			);
+			name = "Yo BroTests";
+			productName = "Yo BroTests";
+			productReference = 95A8E9E31CDE6A8D00F25545 /* Yo BroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95A8E9ED1CDE6A8D00F25545 /* Yo BroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A8E9FD1CDE6A8D00F25545 /* Build configuration list for PBXNativeTarget "Yo BroUITests" */;
+			buildPhases = (
+				95A8E9EA1CDE6A8D00F25545 /* Sources */,
+				95A8E9EB1CDE6A8D00F25545 /* Frameworks */,
+				95A8E9EC1CDE6A8D00F25545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95A8E9F01CDE6A8D00F25545 /* PBXTargetDependency */,
+			);
+			name = "Yo BroUITests";
+			productName = "Yo BroUITests";
+			productReference = 95A8E9EE1CDE6A8D00F25545 /* Yo BroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95A8E9C21CDE6A8D00F25545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.example;
+				TargetAttributes = {
+					95A8E9C91CDE6A8D00F25545 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9964ZUU393;
+					};
+					95A8E9E21CDE6A8D00F25545 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 95A8E9C91CDE6A8D00F25545;
+					};
+					95A8E9ED1CDE6A8D00F25545 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 95A8E9C91CDE6A8D00F25545;
+					};
+				};
+			};
+			buildConfigurationList = 95A8E9C51CDE6A8D00F25545 /* Build configuration list for PBXProject "Yo Bro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95A8E9C11CDE6A8D00F25545;
+			productRefGroup = 95A8E9CB1CDE6A8D00F25545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95A8E9C91CDE6A8D00F25545 /* Yo Bro */,
+				95A8E9E21CDE6A8D00F25545 /* Yo BroTests */,
+				95A8E9ED1CDE6A8D00F25545 /* Yo BroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95A8E9C81CDE6A8D00F25545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A8EA141CE3EED600F25545 /* TwitterKitResources.bundle in Resources */,
+				95A8E9DD1CDE6A8D00F25545 /* LaunchScreen.storyboard in Resources */,
+				95A8E9DA1CDE6A8D00F25545 /* Assets.xcassets in Resources */,
+				95A8E9D81CDE6A8D00F25545 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A8E9E11CDE6A8D00F25545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A8E9EC1CDE6A8D00F25545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95A8EA0D1CE3EE9000F25545 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run e5355cf2b2fed1c0d9296dcab78f948470f17de5 05c5a8765832da2377fd4e2fb8440017bdf9c7edb7b18944af2677c22b27c3a4";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95A8E9C61CDE6A8D00F25545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A8EA191CE418CC00F25545 /* Users.m in Sources */,
+				95C1E44B1CE8B2A4009D44EE /* OMPOptionsTableViewController.m in Sources */,
+				95A8E9D51CDE6A8D00F25545 /* ViewController.m in Sources */,
+				953CC5941CE563BF00D3702F /* OMPBrosTableViewCell.m in Sources */,
+				95A8E9D21CDE6A8D00F25545 /* AppDelegate.m in Sources */,
+				95A8EA0C1CDEEBC900F25545 /* BrosTableViewController.m in Sources */,
+				95A8E9CF1CDE6A8D00F25545 /* main.m in Sources */,
+				95A8EA031CDE6ED300F25545 /* RegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A8E9DF1CDE6A8D00F25545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A8E9E81CDE6A8D00F25545 /* Yo_BroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A8E9EA1CDE6A8D00F25545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A8E9F31CDE6A8D00F25545 /* Yo_BroUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95A8E9E51CDE6A8D00F25545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95A8E9C91CDE6A8D00F25545 /* Yo Bro */;
+			targetProxy = 95A8E9E41CDE6A8D00F25545 /* PBXContainerItemProxy */;
+		};
+		95A8E9F01CDE6A8D00F25545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95A8E9C91CDE6A8D00F25545 /* Yo Bro */;
+			targetProxy = 95A8E9EF1CDE6A8D00F25545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95A8E9D61CDE6A8D00F25545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A8E9D71CDE6A8D00F25545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95A8E9DB1CDE6A8D00F25545 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A8E9DC1CDE6A8D00F25545 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95A8E9F51CDE6A8D00F25545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95A8E9F61CDE6A8D00F25545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95A8E9F81CDE6A8D00F25545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Yo Bro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.omnipixel.labs.Yo-Bro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95A8E9F91CDE6A8D00F25545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Yo Bro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.omnipixel.labs.Yo-Bro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95A8E9FB1CDE6A8D00F25545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Yo BroTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.omnipixel.labs.Yo-BroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yo Bro.app/Yo Bro";
+			};
+			name = Debug;
+		};
+		95A8E9FC1CDE6A8D00F25545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Yo BroTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.omnipixel.labs.Yo-BroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yo Bro.app/Yo Bro";
+			};
+			name = Release;
+		};
+		95A8E9FE1CDE6A8D00F25545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Yo BroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.omnipixel.labs.Yo-BroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Yo Bro";
+			};
+			name = Debug;
+		};
+		95A8E9FF1CDE6A8D00F25545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Yo BroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.omnipixel.labs.Yo-BroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Yo Bro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95A8E9C51CDE6A8D00F25545 /* Build configuration list for PBXProject "Yo Bro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A8E9F51CDE6A8D00F25545 /* Debug */,
+				95A8E9F61CDE6A8D00F25545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A8E9F71CDE6A8D00F25545 /* Build configuration list for PBXNativeTarget "Yo Bro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A8E9F81CDE6A8D00F25545 /* Debug */,
+				95A8E9F91CDE6A8D00F25545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A8E9FA1CDE6A8D00F25545 /* Build configuration list for PBXNativeTarget "Yo BroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A8E9FB1CDE6A8D00F25545 /* Debug */,
+				95A8E9FC1CDE6A8D00F25545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A8E9FD1CDE6A8D00F25545 /* Build configuration list for PBXNativeTarget "Yo BroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A8E9FE1CDE6A8D00F25545 /* Debug */,
+				95A8E9FF1CDE6A8D00F25545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95A8E9C21CDE6A8D00F25545 /* Project object */;
+}
